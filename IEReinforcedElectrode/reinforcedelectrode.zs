@@ -16,7 +16,8 @@ print("START: Reinforced Electrode ");
     
     //the electrode item
     val reinforced_electrode_item = <immersiveengineering:graphite_electrode>.withTag(
-        {ench: [{lvl: 5 as short, id: 34 as short}], 
+        {ench: [{lvl: 10 as short, id: 34 as short}],
+        Unbreakable: 1 as byte, 
         RepairCost: 1, 
         display: {Name: "Reinforced Electrode"}}
         );
